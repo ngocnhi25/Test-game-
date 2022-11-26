@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            text-align: center; width: 100px; height: 100px;
+            background-color:  brown ;position: relative;
+        }
+        #khong{
+            animation-name: game ;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes game {
+            0%{background-color: red;left: 0px;top: 0px;  }
+            25%{background-color: rgb(111, 187, 11);left: 300px;top: 0px;  }
+            50%{background-color: rgb(30, 192, 198);left: 300px;top: 300px;  }
+            75%{background-color: rgb(125, 134, 230);left: 0px;top: 300px;  }
+            100%{background-color: rgb(236, 81, 223);left: 0px;top: 0px;  }
+
+        }
+    </style>
+</head>
+<body>
+    <h1> do you love me>?</h1>
+    <div>
+        <button> co </button>
+        <button id="khong" onclick="khoong()"> No </button>
+    </div>
+    <script>
+        function khong(){
+            alert("la sao "");
+        }
+    </script>
+</body>
+</html>
